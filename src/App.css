@@ -1,0 +1,24 @@
+.link-item {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.link {
+  color: #fff !important;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.count-box {
+  background-color: rgb(34, 95, 187);
+  margin-top: 200px !important;
+  text-align: center;
+  width: 300px;
+  padding: 25px;
+  margin: auto;
+  border-radius: 10px;
+  color: #fff;
+}

@@ -1,0 +1,21 @@
+<ul style ={{display: 'flex' , justifyContent:'space-evenly'}}>
+
+            <li className='link-item'><Link to="/">Home</Link></li>
+
+           <li className='link-item'> <Link to="/About">About</Link></li>
+
+           <li className='link-item'> <Link to="/Services">Services</Link></li>
+
+           <li className='link-item'> <Link to="/Contact">contact</Link></li>
+        </ul>
+
+
+
+
+
+         <div className='count-box'>
+      <p>YOU Clicked {count} times</p>
+          <button onClick={()=> setcount(count+1)}>increase</button>
+          <button onClick={()=> setcount(count-1)}>increase</button>
+          <button onClick={()=>setcount(0)}>Reset</button>
+      </div>
